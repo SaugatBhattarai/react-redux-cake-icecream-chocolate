@@ -12,10 +12,13 @@ function App() {
     <Provider store={store}>
       <div className="App">
         {/* <HooksCakeContainer /> */}
+        <h1>Stocks in My Store</h1>
+        <hr />
         <CakeContainer />
         <IceCreamContainer />
         <ChocolateContainer />
         <NewCakeContainer />
+        <hr />
       </div>
     </Provider>
   );
